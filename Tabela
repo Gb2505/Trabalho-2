@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela de Produtos</title>
-    <link rel="stylesheet" href="style2.css">
-</head>
-<body>
-  <style>
+      <style>
     body {
     font-family: Arial, sans-serif;
     background-color: #589bff;
@@ -58,6 +55,8 @@ td:first-child {
     font-weight: bold;
 }
   </sytle>
+</head>
+<body>
     <h1>Tabela de Produtos</h1>
     
     <table>
