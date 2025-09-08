@@ -4,39 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class = "fotoperfil">
-        <div class = "imagemperfil">
-            <img src="download.jpg" alt="foto-perfil">
-        </div>
-
-        <h1>Gabriel Vianna</h1>
-        <p class = "subtitle"> Desenvolvedor Web</p>
-        <p class = "bio"> Ola! Meu nome é Gabriel e eu sou apaixonado por tercnologia e desenvolvimento web.
-            Tenho experiencias em HTML, CSS, JavaScript e outras tecnologias modernas.
-            Adoro criar paginas bonitas e funcionais que proporcionam uma otima experiencia ao usuario
-        </p>
-        <div class = "skills">
-            <button class ="skills-button html">HTML</button>
-            <button class ="skills-button css">CSS</button>
-            <button class ="skills-button javascript">JavaScript</button>
-            <button class ="skills-button react">React</button>
-        </div>
-
-        <div class = "links">
-            <a href="#">LinkeDin</a>
-            <a href="#">GitHub</a>
-            <a href="#">Instagram</a>
-        </div>
-    </div>
-</body>
-</html>
-
---------------------------------------------------
-
-body {
+    <style>
+     body {
     font-family: Arial;
     background-color: plum;
     display: flex;
@@ -141,3 +110,36 @@ h1{
 .links a:hover{
     text-decoration: underline;
 }
+
+    </style>
+</head>
+<body>
+    <div class = "fotoperfil">
+        <div class = "imagemperfil">
+            <img src="download.jpg" alt="foto-perfil">
+        </div>
+
+        <h1>Gabriel Vianna</h1>
+        <p class = "subtitle"> Desenvolvedor Web</p>
+        <p class = "bio"> Ola! Meu nome é Gabriel e eu sou apaixonado por tercnologia e desenvolvimento web.
+            Tenho experiencias em HTML, CSS, JavaScript e outras tecnologias modernas.
+            Adoro criar paginas bonitas e funcionais que proporcionam uma otima experiencia ao usuario
+        </p>
+        <div class = "skills">
+            <button class ="skills-button html">HTML</button>
+            <button class ="skills-button css">CSS</button>
+            <button class ="skills-button javascript">JavaScript</button>
+            <button class ="skills-button react">React</button>
+        </div>
+
+        <div class = "links">
+            <a href="#">LinkeDin</a>
+            <a href="#">GitHub</a>
+            <a href="#">Instagram</a>
+        </div>
+    </div>
+</body>
+</html>
+
+--------------------------------------------------
+
